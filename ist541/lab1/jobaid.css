@@ -34,19 +34,30 @@ h1, h2 {
 }
 
 .stepDescription {
-	width: 55%;
+	width: 35%;
 	padding-right: 60px;
 	padding-left: 10px;
 }
 
 .stepImage {
-	width: 40%;	
+	width: 60%;	
 	padding: 5px;
 	text-align: center;
 }
 
 img { 
-width: 100%;
-border-radius: 20px;
-box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+
+.warning {
+	background-color: #FBB8C4;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.material-icons {
+	color: red; 
+	font-size: 3em;
 }
