@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question1</title>
+<link href="css/octopus.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+	$( function(){
+		
+		$("#octopus_image").mouseenter( function(){
+			$("#octopus_image ").css("display","none");
+			$("#octopus_hearts").css("display","inline");
+			$("#answer").html("<h2>Octopi!</h2>");
+		});
+	
+		$("#octopus_hearts").mouseleave( function(){
+			$("#octopus_image").css("display","inline");
+			$("#octopus_hearts").css("display","none");
+			$("#answer").html("");
+		});
+	});
+</script>
+	
+</head>
+
+<body>
+	
+	<div id="wrapper">
+ 
+<h1>What is my favorite animal?</h1>
+ 
+<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+ 
+<img id="octopus_image"   src="img/octopus.jpg"   />
+ 
+<img id="octopus_hearts" src="img/octopus_hearts.jpg" />
+ 
+           <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+<br>
+<a href="https://caseylbell.github.io/ist541/lab5/question2" >Learn more</a>
+ 
+</div> <!-- closing  “wrapper” -->
+
+</body>
+</html>
