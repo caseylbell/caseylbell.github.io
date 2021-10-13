@@ -9,7 +9,7 @@ $( function() {
 
       if ($(this).attr("id") == "California") {
          $("#feedback").css("color","green");
-         $("#feedback").html("Yes, California has the largest population: 1,343,239,923");
+         $("#feedback").html("Yes, California has the largest population");
       }
 
       if ($(this).attr("id") == "Florida") {
