@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	
+<head>
+<meta charset="UTF-8">
+<title>States with Largest Population</title>
+<link href="css/hotspot.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="js/hotspot.js"></script>
+</head>
+
+<body>
+	
+<div id="wrapper">       
+ <h2>What is the state with the largest population?</h2>
+ <h3> Click on it! </h3>
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="gridSystemModalLabel"> 
+           Feedback
+        </h4>
+      </div>
+      <div class="modal-body">
+ 		<div id="feedback"></div>
+		</div><!-- /.modal-body -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+ <img src="img/us_map.jpg" alt="USA Map" width="650" height="420" usemap="#Map"/>
+ <map name="Map">
+   <area id="California" shape="poly" coords="39,164,85,170,74,200,118,244,106,266,38,246,33,167" href="#" alt="California" title="California">
+   <area id="Texas" shape="poly" coords="244,239,277,240,276,259,342,268,348,303,310,317,303,341,234,310,193,278" href="#" alt="Texas" title="Texas">
+   <area id="Florida" shape="poly" coords="417,289,492,282,523,329,501,334" href="#" alt="Florida" title="Florida">
+ </map>
+ <br /><br />
+  <div style="font-size:10px">Image Courtesy of the University of Texas Libraries, The University of Texas at Austin.</div><br /> 
+</div><!--closing wrapper-->
+
+</body>
+</html>
