@@ -16,6 +16,11 @@ $( function() {
          $("#feedback").css("color","red");
          $("#feedback").html("No, Florida is the third one");
       }
+	   
+	  if ($(this).attr("id") == "New York") {
+         $("#feedback").css("color","red");
+         $("#feedback").html("No, New York is the fourth one");
+      }
 
   $("#feedback").css("backgroundColor","yellow");
 $('#myModal').modal("show");
