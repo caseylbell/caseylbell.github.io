@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#wrapper {
+#wrapper1 {
 	width: 1123px;
 	margin: 0 auto;    /* centers wrapper */
 }
@@ -9,7 +9,7 @@
 h1 {
 	text-align: center;
 	color: #4b3459;
-	font-family: "Times New Roman", "serif";
+	font-family: 'Lora', serif;
 	padding-top: 50px;
 	font-size: 60px;
 	font-weight: bold;
@@ -18,12 +18,13 @@ h1 {
 .titles {
 	margin-bottom: 170px;
 	line-height: 44px;
+	font-family: 'Lora', serif;
 }
 
 h2 {
 	text-align: center;
 	color: #4b3459;
-	font-family: "Times New Roman", "serif";
+	font-family: 'Lora', serif;
 	padding-top: 90px;
 	font-size: 30px;
 	font-weight: lighter;
@@ -31,12 +32,13 @@ h2 {
 
 body {
 	background-color: #f3eff6;
+	font-family: 'Lora', serif;
 }
 
 footer {
 	text-align: center;
 	color: #4b3459;
-	font-family: "Times New Roman", "serif";
+	font-family: 'Lora', serif;
 	padding-top: 90px;
 	font-size: 15px;
 }
