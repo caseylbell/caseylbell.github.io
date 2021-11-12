@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.52.25247.0%0D%0A%0D%0A00:00:00.096%20--%3E%2000:00:02.240%0D%0AThere%20are%20four%20categories%20of%20mental%0D%0A%0D%0A00:00:02.560%20--%3E%2000:00:03.844%0D%0Aand%20physical%20involvement.%0D%0A%0D%0A"}')
